@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb9834;
+}
+
+.progress {
+    background-color: grey;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+.distance {
+    background-color: eb9834;
+    /* display: none; */
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    margin-top: 2%;
+}
+
+.progress-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: repeating-linear-gradient(to right,orange,blue);
+    box-shadow: 0 5px 5px -6px orange, 0 3px 7px #1172f9;
+    border-radius: 20px;
+    color: #fff;
+    height: 100%;
+    width: 0;
+    transition: 1s ease 0.3s;
+}
+
+#cudi {
+    margin-left: 0;
+}
+
+#ceyl {
+    margin-left: 100%;
+}
